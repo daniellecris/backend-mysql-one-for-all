@@ -7,7 +7,7 @@ USE SpotifyClone;
 CREATE TABLE plans(
 id_plan INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 type_plan VARCHAR(100) NOT NULL,
-price DOUBLE 
+price DECIMAL(5,2) 
 );
 
 INSERT INTO plans(type_plan,price) 
